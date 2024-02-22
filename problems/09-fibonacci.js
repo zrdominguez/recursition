@@ -24,7 +24,5 @@ function fibonacci(n) {
   else if(n<=0) return 0
    return fibonacci(n-1) + fibonacci(n-2);
 }
-debugger;
-fibonacci(4);
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 module.exports = fibonacci;
