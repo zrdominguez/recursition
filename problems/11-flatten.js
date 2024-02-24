@@ -25,6 +25,17 @@ function flatten(arr) {
 
 }
 
+// function flatten(arr) {
+//   if (arr.length === 0) {
+//     return arr
+//   }
+//   if (!Array.isArray(arr[0])) {
+//     return [arr[0], ...flatten(arr.slice(1))];
+//   } else {
+//     return [...flatten(arr[0]), ...flatten(arr.slice(1))]
+//   }
+
+
 console.log(flatten([1, [2, [3]]])); // [1, 2, 3]
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
